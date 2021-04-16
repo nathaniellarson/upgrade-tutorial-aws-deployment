@@ -1,0 +1,18 @@
+{
+    "Resources": {
+        "Ec2Instance": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "ImageId": "ami-047a51fa27710816e",
+                "InstanceType": "t2.micro",
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "my-cli-cloud-formation-ec2"
+                    }
+                ]
+
+            }
+        }
+    }
+}
